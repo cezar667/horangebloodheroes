@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: horangebloodheroes
+#Party Config
+config:
+  party:
+    number-players: 5
+    recovery-morale: 20
+
+#Hero Config
+  hero:
+    initial-health: 100
+    initial-mana: 100
+    recovery-health: 2
+    recovery-mana: 2
+
+#Turn config
+  turn:
+    combat:
+      morale:
+        win: 1
+        lose: -10
+      melee:
+        win-health: 1
+        lose-health: -10
+      spell:
+        win-mana: 1
+        lose-mana: -10
